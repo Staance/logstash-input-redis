@@ -296,7 +296,7 @@ EOF
       end
 
       on.pmessage do |pattern, channel, message|
-        queue_event(message, output_queue)
+        queue_event(channel, message, output_queue)
       end
 
       on.punsubscribe do |channel, count|
