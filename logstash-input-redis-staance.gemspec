@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
 
-  s.name            = 'logstash-input-redis'
+  s.name            = 'logstash-input-redis-staance'
   s.version         = '3.1.0'
   s.licenses        = ['Apache License (2.0)']
   s.summary         = "This input will read events from a Redis instance"
